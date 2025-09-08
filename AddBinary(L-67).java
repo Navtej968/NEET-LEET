@@ -1,7 +1,7 @@
 //Given two binary strings a and b, return their sum as a binary string.
 
 
-class Solution {
+class Solution {   
     public String addBinary(String a, String b) {
         char[] charArrA = a.toCharArray();
         char[] charArrB = b.toCharArray();
