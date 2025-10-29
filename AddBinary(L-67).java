@@ -12,7 +12,7 @@ class Solution {
         while (i >= 0 || j >= 0 || carry > 0) {
             int aNum = i >= 0 ? charArrA[i] - '0' : 0;
             int bNum = j >= 0 ? charArrB[j] - '0' : 0;
-
+   
             int sum = aNum + bNum + carry;
             int digit = sum % 2;
             carry = sum / 2;
